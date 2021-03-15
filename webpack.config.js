@@ -2,6 +2,7 @@ const { loader } = require('mini-css-extract-plugin')
 const path = require('path') //initalize new const var path
 //css plugins that are used by css, and must be recognised by webpack
 const postCSSplugins = [ 
+    require('postcss-import'),
     require('postcss-simple-vars'),
     require('postcss-nested'),
     require('autoprefixer')

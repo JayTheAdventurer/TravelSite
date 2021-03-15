@@ -1,0 +1,10 @@
+/*global body text font family and size*/
+body{
+    font-family: 'Roboto' , sans-serif;
+    color: #333;
+}
+/*global image size set to browser dimensions*/
+img{
+    max-width: 100%;
+    height: auto;
+}
